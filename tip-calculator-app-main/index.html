@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+
+  <main>
+    <article class="the-tip-calculator">
+      <div class="tip-calculator-container">
+        <div class="bill">
+          <h3>Bill</h3>
+
+          <div class="input-icon">
+            <img src="images/icon-dollar.svg" alt="Dollar icon">
+            <input type="text" class="bill-input" placeholder="0">
+          </div>
+        </div>
+
+        <div class="select-tip">
+          <h3>Select tip %</h3>
+          <div class="buttons-container">
+            <button class="calculator-buttons" value="5">5%</button>
+            <button class="calculator-buttons" value="10">10%</button>
+            <button class="calculator-buttons" value="15">15%</button>
+            <button class="calculator-buttons" value="25">25%</button>
+            <button class="calculator-buttons" value="50">50%</button>
+            <input type="text" placeholder="Custom" class="custom-input">
+          </div>
+        </div>
+
+        <div class="number-of-people">
+          <h3>Number of people</h3>
+
+          <div class="input-icon">
+            <img src="images/icon-person.svg" alt="Person icon">
+            <input type="text" placeholder="0" class="number-people-input">
+          </div>
+        </div>
+      </div>
+
+      <div class="tip-calculator-result">
+        <div class="tip-amount-container">
+          <div class="result-description">
+            <h3>Tip Amount</h3>
+            <span>/ person</span>
+          </div>
+          <div class="tip-amount-result">
+            <h3 class="tip-result">$0.00</h3>
+          </div>
+        </div>
+
+        <div class="total-container">
+          <div class="result-description">
+            <h3>Total</h3>
+            <span>/ person</span>
+          </div>
+          <div class="total-result">
+            <h3 class="total-per-person-result">$0.00</h3>
+          </div>
+        </div>
+
+        <button class="reset-calculator" disabled>Reset</button>
+      </div>
+    </article>
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

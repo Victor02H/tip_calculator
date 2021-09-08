@@ -1,0 +1,43 @@
+@media screen and (max-width: 964px) {
+  main {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .the-tip-calculator {
+    width: auto;
+    flex-direction: column;
+  }
+
+  .the-tip-calculator .select-tip .buttons-container {
+    width: auto;
+    justify-content: space-between;
+  }
+
+  .the-tip-calculator .select-tip .buttons-container button,
+  .the-tip-calculator .select-tip .buttons-container input {
+    width: 180px;
+  }
+
+  .the-tip-calculator .select-tip .buttons-container button:nth-of-type(2),
+  .the-tip-calculator .select-tip .buttons-container button:nth-of-type(5) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .the-tip-calculator .tip-calculator-result {
+    width: auto;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .the-tip-calculator .select-tip .buttons-container {
+    display: flex;
+  }
+
+  .the-tip-calculator .select-tip .buttons-container button,
+  .the-tip-calculator .select-tip .buttons-container input {
+    width: 47%;
+  }
+}
